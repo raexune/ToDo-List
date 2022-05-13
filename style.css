@@ -9,14 +9,18 @@ html {
 }
 
 body {
-    background: linear-gradient(120deg, #85e2fd, #85a6fd);
+    background: url(./img/laptop-2838921_1280.jpg);
+    background: linear-gradient(120deg, rgba(133, 225, 253, 0.5), rgba(133, 165, 253, 0.5)), url(./img/laptop-2838921_1280.jpg);
+    background-size: cover;
     color: white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
 }
 
 header {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 header,
